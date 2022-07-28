@@ -22,7 +22,8 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/metatag": "^1.21",
-        "drupal/pathauto": "^1.10"
+        "drupal/pathauto": "^1.10",
+        "drupal/redirect": "^1.7"
     },
     "conflict": {
         "drupal/drupal": "*"
