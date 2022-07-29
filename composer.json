@@ -37,6 +37,7 @@
         "drupal/metatag": "^1.21",
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.10",
+        "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect": "^1.7",
         "drupal/scheduler": "^2.0@RC",
         "drupal/shield": "^1.6",
