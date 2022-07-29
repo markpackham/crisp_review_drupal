@@ -35,6 +35,7 @@
         "drupal/honeypot": "^2.1",
         "drupal/linkit": "^6.0@beta",
         "drupal/metatag": "^1.21",
+        "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.10",
         "drupal/redirect": "^1.7",
         "drupal/scheduler": "^2.0@RC",
