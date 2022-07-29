@@ -19,6 +19,7 @@
         "drupal/adaptivetheme": "^5.1",
         "drupal/admin_toolbar": "^3.1",
         "drupal/advagg": "^5.0",
+        "drupal/at_tool": "^2.0",
         "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^5.2",
         "drupal/bootstrap5": "^1.1",
