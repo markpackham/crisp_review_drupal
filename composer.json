@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/advagg": "^5.0",
         "drupal/bootstrap5": "^1.1",
+        "drupal/captcha": "^1.4",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
@@ -29,6 +30,7 @@
         "drupal/pathauto": "^1.10",
         "drupal/redirect": "^1.7",
         "drupal/shield": "^1.6",
+        "drupal/simple_sitemap": "^4.1",
         "drupal/webform": "^6.1"
     },
     "conflict": {
