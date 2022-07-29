@@ -26,7 +26,8 @@
         "drupal/metatag": "^1.21",
         "drupal/pathauto": "^1.10",
         "drupal/redirect": "^1.7",
-        "drupal/shield": "^1.6"
+        "drupal/shield": "^1.6",
+        "drupal/webform": "^6.1"
     },
     "conflict": {
         "drupal/drupal": "*"
