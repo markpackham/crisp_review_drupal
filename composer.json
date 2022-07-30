@@ -57,7 +57,6 @@
         "drupal/shield": "^1.6",
         "drupal/simple_sitemap": "^4.1",
         "drupal/token": "^1.10",
-        "drupal/webform": "^6.1",
         "woocommerce/flexslider": "~2.0"
     },
     "conflict": {
