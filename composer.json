@@ -8,10 +8,22 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": [{
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "woocommerce/flexslider",
+                "version": "2.7.2",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/woocommerce/FlexSlider.git",
+                    "type": "git",
+                    "reference": "2.7.2"
+                }
+            }
         }
     ],
     "require": {
@@ -33,6 +45,7 @@
         "drupal/eu_cookie_compliance": "^1.19",
         "drupal/extlink": "^1.6",
         "drupal/field_group": "^3.2",
+        "drupal/flexslider": "^2.0",
         "drupal/honeypot": "^2.1",
         "drupal/linkit": "^6.0@beta",
         "drupal/metatag": "^1.21",
@@ -44,7 +57,8 @@
         "drupal/shield": "^1.6",
         "drupal/simple_sitemap": "^4.1",
         "drupal/token": "^1.10",
-        "drupal/webform": "^6.1"
+        "drupal/webform": "^6.1",
+        "woocommerce/flexslider": "~2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
