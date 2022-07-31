@@ -49,6 +49,7 @@
         "drupal/field_group": "^3.2",
         "drupal/flexslider": "^2.0",
         "drupal/honeypot": "^2.1",
+        "drupal/image_resize_filter": "^1.1",
         "drupal/linkit": "^6.0@beta",
         "drupal/metatag": "^1.21",
         "drupal/paragraphs": "^1.14",
