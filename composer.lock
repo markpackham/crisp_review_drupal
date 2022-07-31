@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a5cbc3c70487ba4fa5674ea0088f98d",
+    "content-hash": "2ea10cb65a257015835ed4527402f2b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3381,6 +3381,58 @@
             "homepage": "https://www.drupal.org/project/permissions_filter",
             "support": {
                 "source": "https://git.drupalcode.org/project/permissions_filter"
+            }
+        },
+        {
+            "name": "drupal/poll",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/poll.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/poll-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "59b4ec4545aa5901c5f3a177760b17b645c0617d"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1638777657",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "adammalone",
+                    "homepage": "https://www.drupal.org/user/1295980"
+                },
+                {
+                    "name": "mqanneh",
+                    "homepage": "https://www.drupal.org/user/2833163"
+                }
+            ],
+            "description": "Allows your site to capture votes on different topics in the form of multiple choice questions.",
+            "homepage": "https://www.drupal.org/project/poll",
+            "support": {
+                "source": "https://git.drupalcode.org/project/poll"
             }
         },
         {

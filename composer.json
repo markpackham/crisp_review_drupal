@@ -56,6 +56,7 @@
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.10",
         "drupal/permissions_filter": "^1.2",
+        "drupal/poll": "^1.5",
         "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect": "^1.7",
         "drupal/scheduler": "^2.0@RC",
