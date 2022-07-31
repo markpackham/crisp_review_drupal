@@ -60,6 +60,7 @@
         "drupal/scheduler": "^2.0@RC",
         "drupal/shield": "^1.6",
         "drupal/simple_sitemap": "^4.1",
+        "drupal/sitemap": "^2.0@beta",
         "drupal/token": "^1.10",
         "woocommerce/flexslider": "~2.0"
     },
