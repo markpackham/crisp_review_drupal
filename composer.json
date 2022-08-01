@@ -62,6 +62,7 @@
         "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect": "^1.7",
         "drupal/scheduler": "^2.0@RC",
+        "drupal/seckit": "^2.0",
         "drupal/shield": "^1.6",
         "drupal/simple_sitemap": "^4.1",
         "drupal/sitemap": "^2.0@beta",
