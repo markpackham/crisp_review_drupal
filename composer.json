@@ -49,6 +49,7 @@
         "drupal/extlink": "^1.6",
         "drupal/field_group": "^3.2",
         "drupal/flexslider": "^2.0",
+        "drupal/google_analytics": "^4.0",
         "drupal/honeypot": "^2.1",
         "drupal/image_resize_filter": "^1.1",
         "drupal/linkit": "^6.0@beta",
