@@ -68,6 +68,7 @@
         "drupal/simple_sitemap": "^4.1",
         "drupal/sitemap": "^2.0@beta",
         "drupal/token": "^1.10",
+        "drush/drush": "^11.1",
         "woocommerce/flexslider": "~2.0"
     },
     "conflict": {
