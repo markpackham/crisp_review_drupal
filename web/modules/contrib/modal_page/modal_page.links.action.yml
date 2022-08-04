@@ -1,5 +1,0 @@
-entity.modal.add_form:
-  route_name: entity.modal.add_form
-  title: 'Add Modal'
-  appears_on:
-    - entity.modal.collection

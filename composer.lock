@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f96c3dee3883fa9c9353611bfb9843de",
+    "content-hash": "a2fc58f26962d8ad3ef07b0a10cf6f58",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4000,77 +4000,6 @@
                 "source": "https://git.drupalcode.org/project/metatag",
                 "issues": "https://www.drupal.org/project/issues/metatag",
                 "docs": "https://www.drupal.org/docs/8/modules/metatag"
-            }
-        },
-        {
-            "name": "drupal/modal_page",
-            "version": "4.1.15",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/modal_page.git",
-                "reference": "4.1.15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/modal_page-4.1.15.zip",
-                "reference": "4.1.15",
-                "shasum": "ee9de041194b8e2768f22df69273c61bd85be558"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "4.1.15",
-                    "datestamp": "1657803072",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://www.drupal.org/node/2841111/committers",
-                    "role": "Developer"
-                },
-                {
-                    "name": "larruda",
-                    "homepage": "https://www.drupal.org/user/1009514"
-                },
-                {
-                    "name": "luiscarvalho",
-                    "homepage": "https://www.drupal.org/user/3670693"
-                },
-                {
-                    "name": "maikelfinck",
-                    "homepage": "https://www.drupal.org/user/3232037"
-                },
-                {
-                    "name": "paulocs",
-                    "homepage": "https://www.drupal.org/user/3640109"
-                },
-                {
-                    "name": "RenatoG",
-                    "homepage": "https://www.drupal.org/user/3326031"
-                },
-                {
-                    "name": "thalles",
-                    "homepage": "https://www.drupal.org/user/3589086"
-                }
-            ],
-            "description": "Create modal for specifics pages.",
-            "homepage": "https://www.drupal.org/project/modal_page",
-            "support": {
-                "source": "https://git.drupalcode.org/project/modal_page",
-                "issues": "https://www.drupal.org/project/issues/modal_page",
-                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
