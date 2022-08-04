@@ -1,0 +1,34 @@
+@import "crisps_view.css";
+@import "navigation.css";
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
