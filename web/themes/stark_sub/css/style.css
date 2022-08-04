@@ -1,6 +1,13 @@
 @import "crisps_view.css";
 @import "form.css";
 @import "navigation.css";
+@import "table.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -12,6 +19,7 @@ ul a {
 
 a:hover {
   font-weight: bold;
+  opacity: 0.9;
 }
 
 form {
