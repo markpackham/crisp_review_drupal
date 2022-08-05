@@ -16,6 +16,7 @@ body {
 button,
 .button {
   border-radius: 5px;
+  cursor: pointer;
   margin: 5px;
   padding: 5px;
 }
@@ -36,3 +37,12 @@ form {
 ul {
   list-style-type: none;
 }
+
+
+/* Media Queries */
+
+@media(max-width: 960px) {}
+
+@media(max-width:768px) {}
+
+@media(min-width: 1440px) {}
