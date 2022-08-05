@@ -36,6 +36,10 @@ a:hover {
   opacity: 0.9;
 }
 
+img {
+  padding: 0.5rem;
+}
+
 ul {
   list-style-type: none;
 }
