@@ -31,17 +31,22 @@ a:hover {
   opacity: 0.9;
 }
 
-.form-item {
-  margin-bottom: 5px;
-}
-
 form {
   padding: 10px;
 }
 
+form .description,
+.form-item {
+  margin: 5px 0;
+
+}
 
 img {
   padding: 0.5rem;
+}
+
+label {
+  margin-right: 0.5rem;
 }
 
 table {
@@ -61,6 +66,10 @@ ul {
 }
 
 /* Classes */
+#block-stark-sub-main-menu>ul {
+  margin: 1rem 0;
+}
+
 #block-stark-sub-main-menu>ul>li {
   display: inline;
   margin-right: 1rem;
