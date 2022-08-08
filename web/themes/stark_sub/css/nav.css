@@ -2,7 +2,12 @@
   margin: 1rem 0;
 }
 
-#block-stark-sub-main-menu>ul>li {
+#block-stark-sub-main-menu>ul>li,
+#block-stark-sub-account-menu>ul>li {
   display: inline;
   margin-right: 1rem;
+}
+
+#block-stark-sub-account-menu>ul {
+  margin-bottom: 1rem;
 }

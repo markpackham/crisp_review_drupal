@@ -1,4 +1,6 @@
 @import url('form.css');
+@import url('header.css');
+@import url('media.css');
 @import url('nav.css');
 @import url('view-slideshows.css');
 
@@ -6,6 +8,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+article {
+  max-width: 1500px;
 }
 
 body {
@@ -44,6 +50,10 @@ label {
   margin-right: 0.5rem;
 }
 
+p {
+  margin: 1rem 0;
+}
+
 table {
   margin: 5px 10px;
 }
@@ -65,17 +75,3 @@ ul {
 .layout-container {
   padding: 1rem;
 }
-
-
-/* Media Queries */
-
-@media(max-width: 960px) {}
-
-@media(max-width:768px) {
-  #block-stark-sub-main-menu>ul>li {
-    display: block;
-    margin-right: 0;
-  }
-}
-
-@media(min-width: 1440px) {}
