@@ -1,0 +1,15 @@
+#block-stark-sub-main-menu>ul,
+#block-mainnavigation>ul {
+  margin: 1rem 0;
+}
+
+#block-stark-sub-main-menu>ul>li,
+#block-stark-sub-account-menu>ul>li,
+#block-mainnavigation>ul>li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+#block-stark-sub-account-menu>ul {
+  margin-bottom: 1rem;
+}

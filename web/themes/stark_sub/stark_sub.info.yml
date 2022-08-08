@@ -1,0 +1,17 @@
+name: Stark_Sub
+type: theme
+description: This is a sub theme of Stark from Core
+core_version_requirement: ^8 || ^9 || ^10
+# Defines the base theme
+base theme: stark
+# Defines libraries group in which we can add css/js.
+libraries:
+  - stark_sub/global-styling
+# Regions, quote the names
+regions:
+  header: 'Header'
+  featured: 'Featured'
+  content: 'Content'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  footer: 'Footer'
