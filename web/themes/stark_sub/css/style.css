@@ -1,7 +1,10 @@
 @import url('form.css');
+@import url('footer.css');
 @import url('header.css');
 @import url('media.css');
 @import url('nav.css');
+@import url('table.css');
+@import url('variables.css');
 @import url('view-slideshows.css');
 
 * {
@@ -41,9 +44,17 @@ a:hover {
   opacity: 0.9;
 }
 
-
 img {
   padding: 0.5rem;
+}
+
+input {
+  padding: 0.25rem;
+}
+
+input:hover {
+  background-color: var(--input-hover-bg);
+  ;
 }
 
 label {
@@ -52,18 +63,6 @@ label {
 
 p {
   margin: 1rem 0;
-}
-
-table {
-  margin: 5px 10px;
-}
-
-table,
-td,
-thead,
-th {
-  border: 1px solid;
-  padding: 5px;
 }
 
 ul {
