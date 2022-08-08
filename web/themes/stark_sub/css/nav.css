@@ -1,0 +1,8 @@
+#block-stark-sub-main-menu>ul {
+  margin: 1rem 0;
+}
+
+#block-stark-sub-main-menu>ul>li {
+  display: inline;
+  margin-right: 1rem;
+}
