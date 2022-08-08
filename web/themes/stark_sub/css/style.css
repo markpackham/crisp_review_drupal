@@ -44,6 +44,12 @@ a:hover {
   opacity: 0.9;
 }
 
+h1,
+h2 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
 img {
   padding: 0.5rem;
 }
