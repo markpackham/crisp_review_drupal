@@ -22,6 +22,10 @@ body {
 
 }
 
+article>div.node__content>div>div:nth-child(1) {
+  font-weight: bold;
+}
+
 button,
 .button {
   border-radius: 5px;
@@ -89,6 +93,12 @@ ul {
 .layout-container {
   padding: 1rem;
 }
+
+.node__submitted {
+  padding-top: 0.5rem;
+}
+
+/* Ids */
 
 #block-stark-sub-account-menu>ul {
   margin-bottom: 0px;
