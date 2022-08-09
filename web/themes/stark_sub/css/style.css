@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('media.css');
 @import url('nav.css');
+@import url('search.css');
 @import url('table.css');
 @import url('variables.css');
 @import url('view-pages.css');
@@ -46,7 +47,7 @@ a:hover {
 
 h1,
 h2 {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -74,8 +75,13 @@ ul {
   list-style-type: none;
 }
 
+
 /* Classes */
 
 .layout-container {
   padding: 1rem;
+}
+
+#block-stark-sub-account-menu>ul {
+  margin-bottom: 0px;
 }
