@@ -1,7 +1,14 @@
 header {
   background-color: var(--tertiary-bg);
-  border-radius: 5px;
   padding: 0.5rem;
+}
+
+header,
+#block-stark-sub-branding,
+#block-stark-sub-account-menu,
+#block-stark-sub-main-menu,
+#block-mainnavigation {
+  border-radius: 5px;
 }
 
 .site-name {
@@ -17,7 +24,6 @@ header {
 #block-stark-sub-branding,
 #block-stark-sub-account-menu {
   background-color: var(--primary-bg);
-  border-radius: 5px;
   padding: 0.25rem;
 }
 
@@ -29,12 +35,10 @@ header {
 #block-stark-sub-main-menu,
 #block-mainnavigation {
   background-color: var(--secondary-bg);
-  border-radius: 5px;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   padding: 0.25rem;
 }
-
 
 #block-stark-sub-main-menu>ul>li:nth-child(1)>a,
 #block-mainnavigation>ul>li:nth-child(1)>a {
