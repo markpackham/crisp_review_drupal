@@ -21,14 +21,15 @@ header,
   font-style: italic;
 }
 
-#block-stark-sub-branding,
-#block-stark-sub-account-menu {
-  background-color: var(--primary-bg);
+#block-stark-sub-branding {
+  background: rgb(137, 132, 219);
+  background: linear-gradient(90deg, rgba(137, 132, 219, 1) 0%, rgba(153, 193, 205, 1) 9%, rgba(0, 212, 255, 1) 100%);
   padding: 0.25rem;
 }
 
 #block-stark-sub-account-menu {
   max-width: 190px;
+  padding: 0.25rem;
   text-align: center;
 }
 
