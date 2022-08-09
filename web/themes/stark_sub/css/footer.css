@@ -1,3 +1,7 @@
 footer {
   margin-top: 1rem;
 }
+
+body>div.dialog-off-canvas-main-canvas>div>footer>div.copyright-footer {
+  background-color: red !important;
+}

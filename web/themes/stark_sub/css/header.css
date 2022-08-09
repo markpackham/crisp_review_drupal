@@ -20,10 +20,17 @@
   text-align: center;
 }
 
-#block-stark-sub-main-menu {
+#block-stark-sub-main-menu,
+#block-mainnavigation {
   background-color: var(--secondary-bg);
   border-radius: 5px;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   padding: 0.25rem;
+}
+
+
+#block-stark-sub-main-menu>ul>li:nth-child(1)>a,
+#block-mainnavigation>ul>li:nth-child(1)>a {
+  margin-left: 1rem;
 }
