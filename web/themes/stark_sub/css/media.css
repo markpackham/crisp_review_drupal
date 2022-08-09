@@ -7,7 +7,9 @@
     border: 2px solid;
   }
 
-  #block-stark-sub-main-menu>ul>li {
+  #block-stark-sub-main-menu>ul>li,
+  #block-stark-sub-account-menu>ul>li,
+  #block-mainnavigation>ul>li {
     display: block;
     margin-right: 0;
   }
