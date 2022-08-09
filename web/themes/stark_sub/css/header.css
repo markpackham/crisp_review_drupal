@@ -7,3 +7,23 @@
   font-size: 1.5rem;
   font-style: italic;
 }
+
+#block-stark-sub-branding,
+#block-stark-sub-account-menu {
+  background-color: var(--primary-bg);
+  border-radius: 5px;
+  padding: 0.25rem;
+}
+
+#block-stark-sub-account-menu {
+  max-width: 190px;
+  text-align: center;
+}
+
+#block-stark-sub-main-menu {
+  background-color: var(--secondary-bg);
+  border-radius: 5px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+}

@@ -3,6 +3,10 @@
 @media(max-width: 960px) {}
 
 @media(max-width:768px) {
+  body {
+    border: 2px solid;
+  }
+
   #block-stark-sub-main-menu>ul>li {
     display: block;
     margin-right: 0;

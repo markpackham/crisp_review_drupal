@@ -1,3 +1,5 @@
 :root {
   --input-hover-bg: hsl(0, 0%, 83%);
+  --primary-bg: hsl(195, 56%, 74%);
+  --secondary-bg: hsl(300, 22%, 70%);
 }

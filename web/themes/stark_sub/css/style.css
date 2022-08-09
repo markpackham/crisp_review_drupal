@@ -14,12 +14,11 @@
   padding: 0;
 }
 
-article {
-  max-width: 1500px;
-}
-
 body {
+  border-radius: 5px;
+  max-width: 1600px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
 }
 
 button,
@@ -61,7 +60,6 @@ input {
 
 input:hover {
   background-color: var(--input-hover-bg);
-  ;
 }
 
 label {
