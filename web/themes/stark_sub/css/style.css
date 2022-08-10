@@ -1,4 +1,5 @@
 :root {
+  --box-shadow: hsl(0, 0%, 24%);
   --input-hover-bg: hsl(0, 0%, 83%);
   --primary-bg: hsl(195, 56%, 74%);
   --secondary-bg: hsl(300, 22%, 70%);
@@ -36,7 +37,7 @@ article>div.node__content>div>div:nth-child(1) {
 
 button,
 .button {
-  box-shadow: 2px 2px hsl(0, 0%, 24%);
+  box-shadow: 2px 2px var(--box-shadow);
   cursor: pointer;
   font-size: 1.1rem;
   margin: 5px;
@@ -97,7 +98,7 @@ footer {
   text-align: center;
   border: 1px solid;
   padding: 3px;
-  box-shadow: 2px 2px hsl(0, 0%, 24%);
+  box-shadow: 2px 2px var(--box-shadow);
 }
 
 /* Form */
@@ -112,10 +113,12 @@ form .description,
 
 #block-stark-sub-content form {
   border: 1px solid;
+  box-shadow: 2px 2px var(--box-shadow);
 }
 
 /* Header */
 header {
+  box-shadow: 2px 2px var(--box-shadow);
   background-color: var(--tertiary-bg);
   padding: 0.5rem;
 }
