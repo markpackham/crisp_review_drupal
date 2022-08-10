@@ -17,6 +17,7 @@
 body {
   max-width: 1600px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
 body,
@@ -32,7 +33,9 @@ article>div.node__content>div>div:nth-child(1) {
 
 button,
 .button {
+  box-shadow: 2px 2px hsl(0, 0%, 24%);
   cursor: pointer;
+  font-size: 1.1rem;
   margin: 5px;
   padding: 5px;
 }
@@ -49,7 +52,7 @@ a {
 
 a:hover {
   font-weight: bold;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 footer {
@@ -57,6 +60,9 @@ footer {
   margin-top: 1rem;
   padding-bottom: 0.5rem;
   text-align: center;
+  border: 1px solid;
+  padding: 3px;
+  box-shadow: 2px 2px hsl(0, 0%, 24%);
 }
 
 h1,
