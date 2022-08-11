@@ -1,0 +1,14 @@
+/* Animations */
+.crisp-review-homepage .node__content .layout--onecol p {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

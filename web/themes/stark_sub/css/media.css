@@ -1,0 +1,17 @@
+/* Media Queries */
+@media(max-width: 960px) {}
+
+@media(max-width:768px) {
+  body {
+    border: 2px solid;
+  }
+
+  #block-mainnavigation>ul>li,
+  #block-stark-sub-account-menu>ul>li,
+  #block-stark-sub-main-menu>ul>li {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+@media(min-width: 1440px) {}

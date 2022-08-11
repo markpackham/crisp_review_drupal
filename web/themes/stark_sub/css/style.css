@@ -227,36 +227,3 @@ td {
 #block-stark-sub-account-menu>ul {
   margin-bottom: 0px;
 }
-
-/* Animations */
-.crisp-review-homepage .node__content .layout--onecol p {
-  animation: fadeIn 3s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-/* Media Queries */
-@media(max-width: 960px) {}
-
-@media(max-width:768px) {
-  body {
-    border: 2px solid;
-  }
-
-  #block-mainnavigation>ul>li,
-  #block-stark-sub-account-menu>ul>li,
-  #block-stark-sub-main-menu>ul>li {
-    display: block;
-    margin-right: 0;
-  }
-}
-
-@media(min-width: 1440px) {}
