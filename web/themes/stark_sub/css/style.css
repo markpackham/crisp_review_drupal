@@ -178,6 +178,20 @@ header {
   margin-right: 1rem;
 }
 
+#block-stark-sub-main-menu>ul>li>a,
+#block-mainnavigation>ul>li>a {
+  background-image: linear-gradient(90deg, hsl(270, 91%, 26%), hsl(240, 100%, 50%));
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+
+#block-stark-sub-main-menu>ul>li>a:hover,
+#block-mainnavigation>ul>li>a:hover {
+  background-size: 100% 3px;
+  font-size: 1.1rem;
+}
 
 /* Tables */
 table {
