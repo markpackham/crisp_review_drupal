@@ -1,6 +1,19 @@
 /* Animations */
+
+.crisp-review-homepage .layout--onecol {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.crisp-review-homepage .node__content .layout--onecol h2 {
+  animation: fadeIn 3s ease-in-out;
+}
+
 .crisp-review-homepage .node__content .layout--onecol p {
-  animation: fadeIn 3s;
+  animation: fadeIn 4s ease-in-out;
+}
+
+.crisp-review-homepage .layout--twocol-section--50-50 {
+  animation: fadeIn 6s ease-in-out;
 }
 
 @keyframes fadeIn {
