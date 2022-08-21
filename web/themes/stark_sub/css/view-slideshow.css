@@ -1,0 +1,8 @@
+/* View Slideshow */
+.flexslider .slides img {
+  max-width: 500px;
+}
+
+.flexslider .slides h4 {
+  font-size: 1.3rem;
+}

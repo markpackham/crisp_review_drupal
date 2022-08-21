@@ -1,6 +1,8 @@
 global-styling:
   css:
     component:
-      css/style.css: {}
       css/animations.css: {}
       css/media.css: {}
+      css/style.css: {}
+      css/view-pages.css: {}
+      css/view-slideshow.css: {}
