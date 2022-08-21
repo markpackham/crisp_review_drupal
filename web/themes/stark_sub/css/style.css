@@ -28,6 +28,7 @@ body {
 body,
 button,
 footer,
+h1,
 header {
   border-radius: 5px;
 }
@@ -35,6 +36,7 @@ header {
 .button,
 #block-stark-sub-content form,
 button,
+h1,
 footer,
 header {
   box-shadow: 2px 2px var(--box-shadow);
@@ -77,6 +79,14 @@ h1,
 h2 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+}
+
+h1 {
+  background: rgb(137, 132, 219);
+  background: linear-gradient(90deg, rgba(137, 132, 219, 1) 0%, rgba(153, 193, 205, 1) 9%, rgba(0, 212, 255, 1) 100%);
+  font-size: 3rem;
+  padding: 0.25rem;
+  text-align: center;
 }
 
 img {
@@ -232,6 +242,11 @@ td {
 
 
 /* Classes */
+.crisp-review-homepage .layout--onecol h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .layout-container {
   padding: 1rem;
 }
