@@ -225,26 +225,19 @@ td {
 }
 
 
-/* View Pages */
-.flavour_space {
-  margin-top: 0.75rem;
-}
-
-.views-field-field-article-text {
-  margin: 0.25rem;
-}
-
-
-/* View Slideshow */
-.flexslider .slides img {
-  max-width: 500px;
-}
-
-
 /* Classes */
 .crisp-review-homepage .layout--onecol h2 {
   font-size: 2rem;
   text-align: center;
+}
+
+.crisp-review-homepage p::first-letter{
+  font-size: 1.5rem;
+}
+.crisp-review-homepage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .layout-container {

@@ -1,5 +1,9 @@
 /* Media Queries */
-@media(max-width: 960px) {}
+@media(max-width: 960px) {
+  .crisp-review-homepage img{
+    margin-left: 0;
+  }
+}
 
 @media(max-width:768px) {
   body {
